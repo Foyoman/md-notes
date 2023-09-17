@@ -46,10 +46,10 @@ all(condition) and any(condition)
 
 ```python
 def remove_url_anchor(url):
-	if "#" not in url:
-		return url
-	split_url = [*url]
-	hash = split_url.index("#")
-	return "".join(split_url[slice(hash)])	
+  	return url.split('#')[0]
 ```
 
+```python
+def is_prime(num):
+    return all(num % i != 0 for i in range(2, num))
+```
