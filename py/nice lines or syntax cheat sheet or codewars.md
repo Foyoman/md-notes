@@ -46,5 +46,10 @@ all(condition) and any(condition)
 
 ```python
 def remove_url_anchor(url):
-	
+	if "#" not in url:
+		return url
+	split_url = [*url]
+	hash = split_url.index("#")
+	return "".join(split_url[slice(hash)])	
 ```
+
