@@ -17,3 +17,9 @@ python3 manage.py makemigrations
 python3 manage.py migrate
 python3 manage.py createsuperuser
 ```
+
+```python
+last_modified = models.DateTimeField(auto_add=True)
+date_posted = models.DateTimeField(auto_add_now=True)
+date_posted = models.DateTimeField(default=timezone.now)
+```
