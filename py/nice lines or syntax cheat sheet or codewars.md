@@ -46,7 +46,7 @@ all(condition) and any(condition)
 
 ```python
 def remove_url_anchor(url):
-  	return url.split('#')[0]
+	return url.split('#')[0]
 ```
 
 ```python
