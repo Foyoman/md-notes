@@ -1,0 +1,24 @@
+- typescript 
+	- foundations
+		- udemy w/ max
+	- projects
+	- continuous
+		- exercism
+		- codewars/leetcode
+- python
+	- foundations
+		- udemy w/ angela
+	- projects
+		- django
+		- hyperskill
+	- continuous
+		- codewars/leetcode
+- java
+	- foundations
+		- mooc
+		- hyperskill
+	- projects
+		- spring - udemy
+		- hyperskill
+- c#
+	- tim

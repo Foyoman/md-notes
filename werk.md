@@ -1,0 +1,16 @@
+- nuxt 3
+- use us components
+- nuxt 3 installation docs
+- components:
+	- hero 
+	- split feature
+	- card
+	- grid
+- component directory
+- modules
+	- image
+	- storyblok
+
+- hero product split 
+	- hero product centred 
+	- hero lifestyle split
