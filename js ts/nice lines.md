@@ -37,13 +37,3 @@ sortedPosts() {
 ```js
 Array.from(String(1234), Number); // => [1, 2, 3, 4]
 ```
-
----
-# py
-
-```python
-file = open("sums.txt", "r")
-
-for line in file:
-    print(sum(list(map(int, line.split()))))
-```

@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "py/nice lines or syntax cheat sheet or codewars.md",
+                "file": "storybook.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "py/nice lines or syntax cheat sheet or codewars.md",
+                "file": "storybook.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "py/nice lines or syntax cheat sheet or codewars.md",
+                "file": "storybook.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "py/nice lines or syntax cheat sheet or codewars.md"
+                "file": "storybook.md"
               }
             }
           }
@@ -169,31 +169,35 @@
   },
   "active": "c71484f0e710bc6f",
   "lastOpenFiles": [
-    "py/django.md",
+    "scribble.md",
+    "storybook.md",
+    "tailwind.md",
+    "js ts/code tests.md",
+    "js ts/count page visits.md",
+    "project ideas.md",
+    "road map.md",
+    "git.md",
+    "werk.md",
+    "building.md",
+    "c hashtag/c hashtag.md",
+    "c hashtag",
+    "todo.md",
+    "js ts/react interview prep.md",
+    "js ts/node.md",
+    "js ts/regex.md",
+    "js ts/nice lines.md",
+    "js ts/men.md",
+    "js ts/jest 🤡.md",
+    "js ts",
+    "gql.md",
     "py/nice lines or syntax cheat sheet or codewars.md",
-    "nice lines.md",
+    "py/django.md",
     "py/angela 😻.md",
     "py",
     "java/java codecad.md",
-    "react interview prep.md",
     "java",
     "java/java.md",
-    "code tests.md",
-    "typescript.md",
-    "c hashtag.md",
-    "storybook.md",
-    "git.md",
-    "project ideas.md",
-    "men.md",
-    "tailwind.md",
-    "count page visits.md",
-    "node.md",
-    "Untitled 3.md",
-    "Untitled 2.md",
-    "werk.md",
-    "scribble.md",
-    "jest 🤡.md",
-    "building.md",
-    "road map.md"
+    "js ts/typescript.md",
+    "Untitled 3.md"
   ]
 }
