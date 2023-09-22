@@ -53,3 +53,23 @@ def remove_url_anchor(url):
 def is_prime(num):
     return all(num % i != 0 for i in range(2, num))
 ```
+
+```python
+def queue_time(customers, n):
+	"""minimum supermarket queue time"""
+    queues = []
+
+    if len(customers) <= 0:
+        return 0
+
+    if n >= len(customers): 
+        return max(customers)
+    else: 
+        for _ in range(0, n):
+            queues.append(customers[0])
+            customers.pop(0)
+        for customer in customers:
+            queues[queues.index(min(queues))] += customer
+
+    return max(queues)
+```

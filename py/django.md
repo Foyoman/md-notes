@@ -18,8 +18,27 @@ python3 manage.py migrate
 python3 manage.py createsuperuser
 ```
 
+```shell
+pip install python-decouple
+```
+
 ```python
 last_modified = models.DateTimeField(auto_add=True)
 date_posted = models.DateTimeField(auto_add_now=True)
 date_posted = models.DateTimeField(default=timezone.now)
+```
+
+```shell
+python3 manage.py shell
+```
+
+`admin.py`
+register models for admin
+
+```shell
+pip install -r requirements.txt
+```
+
+```shell
+python3 manage.py startapp users
 ```
