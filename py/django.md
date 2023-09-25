@@ -45,3 +45,18 @@ python3 manage.py startapp users
 
 views > form 
 `forms.py`
+
+```python
+user = models.OneToOneField(User, on_delete=models.CASCADE) 
+```
+
+```python
+admin.site.register(Profile)
+```
+
+```python
+class ProfileUpdateForm(forms.ModelForm):
+	class Meta:
+		model = Profile
+		field = ['image']
+```
