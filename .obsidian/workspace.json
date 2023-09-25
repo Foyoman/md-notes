@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "py/nice lines or syntax cheat sheet or codewars.md",
+                "file": "py/django.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2596d34d37e843b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "py/django.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "py/nice lines or syntax cheat sheet or codewars.md",
+                "file": "py/django.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "py/nice lines or syntax cheat sheet or codewars.md",
+                "file": "py/django.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "py/nice lines or syntax cheat sheet or codewars.md"
+                "file": "py/django.md"
               }
             }
           }
@@ -154,10 +167,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0a248906a4292df5",
+  "active": "2596d34d37e843b4",
   "lastOpenFiles": [
-    "py/django.md",
     "py/nice lines or syntax cheat sheet or codewars.md",
+    "py/django.md",
     "werk.md",
     "js ts/jest 🤡.md",
     "js ts/code tests.md",
