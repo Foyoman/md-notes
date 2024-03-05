@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "50d2d5bad7120b2f",
+        "id": "bdd4d752edc1bf43",
         "type": "tabs",
         "children": [
           {
-            "id": "0a248906a4292df5",
+            "id": "f5d0b9fc8d65a07c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "py/django.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2596d34d37e843b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "py/django.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "py/django.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "py/django.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "py/django.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -167,37 +146,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2596d34d37e843b4",
+  "active": "f5d0b9fc8d65a07c",
   "lastOpenFiles": [
-    "py/nice lines or syntax cheat sheet or codewars.md",
-    "py/django.md",
-    "werk.md",
-    "js ts/jest 🤡.md",
-    "js ts/code tests.md",
-    "storybook.md",
-    "scribble.md",
-    "tailwind.md",
-    "js ts/count page visits.md",
-    "project ideas.md",
-    "road map.md",
     "git.md",
-    "building.md",
+    "vscode.md",
+    "py/angela 😻.md",
+    "js ts/utility.md",
+    "js ts/nice lines.md",
+    "py/django.md",
+    "py/nice lines or syntax cheat sheet or codewars.md",
+    "js ts/code tests.md",
+    "js ts/count page visits.md",
+    "js ts/node.md",
+    "js ts/jest 🤡.md",
+    "js ts/typescript.md",
+    "js ts/regex.md",
+    "js ts/react interview prep.md",
+    "java/java.md",
+    "java/java codecad.md",
     "c hashtag/c hashtag.md",
+    "road map.md",
+    "storybook.md",
+    "project ideas.md",
+    "tailwind.md",
+    "werk.md",
+    "scribble.md",
+    "building.md",
     "c hashtag",
     "todo.md",
-    "js ts/react interview prep.md",
-    "js ts/node.md",
-    "js ts/regex.md",
-    "js ts/nice lines.md",
     "js ts/men.md",
     "js ts",
-    "gql.md",
-    "py/angela 😻.md",
     "py",
-    "java/java codecad.md",
-    "java",
-    "java/java.md",
-    "js ts/typescript.md",
-    "Untitled 3.md"
+    "java"
   ]
 }

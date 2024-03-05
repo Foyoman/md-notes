@@ -1,9 +1,0 @@
-- printing
-- comments
-- command line
-- compiling, catching errors
-- creating executables
-- class main
-- primitives
-- String
-- operators
