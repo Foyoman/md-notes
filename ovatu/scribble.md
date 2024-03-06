@@ -27,3 +27,6 @@
 - files:
 	- `pages/order/index.vue`
 	- `components/order/elements/DateRange.vue`
+
+### - [Exported client base needing welcome email](https://secure.helpscout.net/conversation/2500734331/194259?folderId=7922220)
+- 
