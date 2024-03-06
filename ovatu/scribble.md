@@ -1,6 +1,7 @@
 ✅: done | 🧑🏻‍💻: in progress
 1. Read through and figure out what you need to do, step by step
-2. Note it down here, so you have a visual grasp of what's to be done, so you don't get overwhelmed trying to figure out and remember everything in your head, and so you can come back to it later
+2. Take notes here, so you have a visual grasp of what's to be done, so you don't get overwhelmed trying to figure out and remember everything in your head, and so you can come back to it later
+	- Note each file you need to work in
 3. Work through each step, checking things off one at a time
 ---
 ### - 🧑🏻‍💻 `feature/theme/preview`
