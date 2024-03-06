@@ -29,6 +29,8 @@
 	- `components/order/elements/DateRange.vue`
 
 ### - [Exported client base needing welcome email](https://secure.helpscout.net/conversation/2500734331/194259?folderId=7922220)
-- Recently imported their existing client date from Timely and they need to make their clients aware of the new system and they need to send them a welcoming email. They can only see the welcoming email for new people. Is there a way of getting a link to the existing clients to get their log in details so they can access the existing appointments?
-  It's possible to send the welcome email to existing (imported) customers, but can only be done one at a time. Open the customer's account, and select re-send welcome email from the drop down options in the top right.
-- Another feature: in the rebooking menu they use the drop down menu and shows them 12 weeks maximum. An option for 6 months? (26 weeks)
+- Welcome email:
+	- Recently imported their existing client date from Timely and they need to make their clients aware of the new system and they need to send them a welcoming email. They can only see the welcoming email for new people. Is there a way of getting a link to the existing clients to get their log in details so they can access the existing appointments?
+	- It's possible to send the welcome email to existing (imported) customers, but can only be done one at a time. Open the customer's account, and select re-send welcome email from the drop down options in the top right.
+- Another feature:
+	- In the rebooking menu they use the drop down menu and shows them 12 weeks maximum. An option for 6 months? (26 weeks)
