@@ -29,12 +29,9 @@
 	- `pages/order/index.vue`
 	- `components/order/elements/DateRange.vue`
 
-### - [Exported client base needing welcome email](https://secure.helpscout.net/conversation/2500734331/194259?folderId=7922220)
-- Welcome email:
-	- Recently imported their existing client date from Timely and they need to make their clients aware of the new system and they need to send them a welcoming email. They can only see the welcoming email for new people. Is there a way of getting a link to the existing clients to get their log in details so they can access the existing appointments?
-	- It's possible to send the welcome email to existing (imported) customers, but can only be done one at a time. Open the customer's account, and select re-send welcome email from the drop down options in the top right.
-	- Amy suggested sending out a mass email with details of how to login to the account. She was going to suggest she include the customer auto login link, so customers can select this and update marketing. This is how the placeholder appears in classic:
-	   ![[Pasted image 20240306165944.png]]
-	   However, she couldn't see this, or the marketing preferences/update details URL in the clips in OvatuNext. These are helpful if customers do not have the marketing consent enabled from hte beginning, so they can offer customers the opportunity to update this later, or ask them to check their contact info. Is there any interest in adding these clips into OvatuNext?
-- Another feature:
-	- In the rebooking menu they use the drop down menu and shows them 12 weeks maximum. An option for 6 months? (26 weeks)
+### `bugfix/rebook-datepicker`
+- the weird dropdown repositioning thing
+```html
+<div id="718-dropdown" class="o-dropdown absolute z-80000 filter drop-shadow-md" style="position: absolute !important;inset: 0px auto auto 0px;margin: 0px;transform: translate3d(8px, 0px, 0px);" data-popper-reference-hidden="" data-popper-placement="right">
+```
+- ^ `translate3d(...)` is the culprit
