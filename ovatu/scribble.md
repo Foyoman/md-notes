@@ -29,9 +29,7 @@
 	- `pages/order/index.vue`
 	- `components/order/elements/DateRange.vue`
 
-### `bugfix/rebook-datepicker`
-- the weird dropdown repositioning thing
-```html
-<div id="718-dropdown" class="o-dropdown absolute z-80000 filter drop-shadow-md" style="position: absolute !important;inset: 0px auto auto 0px;margin: 0px;transform: translate3d(8px, 0px, 0px);" data-popper-reference-hidden="" data-popper-placement="right">
-```
-- ^ `translate3d(...)` is the culprit
+### - [Reports](https://secure.helpscout.net/conversation/2489486135/193096?folderId=7922220)
+- Daily reports adding different days to the total
+   ![[Pasted image 20240307110844.png]]
+- 
