@@ -40,3 +40,5 @@
 	- Apply promo code / gift card = Upotrijebi promotivni kod / poklon karticu
 	- Pay later = Plati kasnije  
 	- Use pass = Koristi paket
+	 ![[Pasted image 20240307130315.png]]
+	 
