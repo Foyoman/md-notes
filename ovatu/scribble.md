@@ -32,4 +32,4 @@
 ### - [Reports](https://secure.helpscout.net/conversation/2489486135/193096?folderId=7922220)
 - Daily reports adding different days to the total
    ![[Pasted image 20240307110844.png]]
-- 
+- When you open the sales report and tap on the filter button and select the 
