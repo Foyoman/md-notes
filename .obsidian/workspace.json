@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "cbc59e75dcafd0a7",
@@ -157,12 +156,12 @@
   },
   "active": "743fe70f33833f45",
   "lastOpenFiles": [
-    "Pasted image 20240307130315.png",
-    "Pasted image 20240307110844.png",
-    "Pasted image 20240306165944.png",
-    "git.md",
+    "ovatu/Pasted image 20240307130315.png",
+    "ovatu/Notes problem.mov",
     "ovatu/scribble.md",
-    "Notes problem.mov",
+    "ovatu/Pasted image 20240307110844.png",
+    "ovatu/Pasted image 20240306165944.png",
+    "git.md",
     "ovatu/today.md",
     "Untitled",
     "ovatu",
