@@ -46,5 +46,6 @@
 	- Pay later = Plati kasnije  
 	- Use pass = Koristi paket
 - ✅ Croatian
+- inspect other language translation files 
 
 ### - `bugfix/rebook-datepicker`
