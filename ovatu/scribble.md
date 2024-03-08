@@ -39,13 +39,15 @@
 - Daily reports adding different days to the total
 - When you open the sales report and tap on the **Filter** button and select the **Daily** filter option, currently 2 dates are pre-selected. Those are yesterday and today. That then shows the sales for both days. When you tap on the calendar to select a different date, a date range is offered. To only show the sales for 1 day that one date needs to be entered into both those date fields. E.g. to see sales dated 12 December you'd add that date to both date filter fields.
 
-### - [Translation](https://secure.helpscout.net/conversation/2526780345/197035?folderId=7922220)
-- Some of the strings are still not translated:
+### - ✅ [Translation](https://secure.helpscout.net/conversation/2526780345/197035?folderId=7922220)
+- Some of the strings are still not translated (Croatian):
 	- Date & time = Datum i vrijeme
 	- Apply promo code / gift card = Upotrijebi promotivni kod / poklon karticu
 	- Pay later = Plati kasnije  
 	- Use pass = Koristi paket
-- ✅ Croatian
 - inspect other language translation files 
 
 ### - ✅ `bugfix/rebook-datepicker`
+
+### - [Re: Notifications](https://secure.helpscout.net/conversation/2483654426/192514?folderId=7922220)
+- 
