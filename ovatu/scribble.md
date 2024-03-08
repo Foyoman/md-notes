@@ -48,4 +48,4 @@
 - ✅ Croatian
 - inspect other language translation files 
 
-### - `bugfix/rebook-datepicker`
+### - ✅ `bugfix/rebook-datepicker`
