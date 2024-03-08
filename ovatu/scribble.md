@@ -27,6 +27,7 @@
 	- `Downloads/Error and saving issue.mov`
 
 ### - [problem with sales](https://secure.helpscout.net/conversation/2497278849/193923?folderId=7922220)
+- timezones
 - Jan 31st sales are displaying on the Sales page in the web app. However there seems to be an issue with the date picker on the Sales page as the system is showing sales from the previous day AS WELL AS the current date.
 - Its not being converted to the locations timezone. Tash was getting offset results because the customer is in Canada
 - files:
@@ -34,6 +35,7 @@
 	- `components/order/elements/DateRange.vue`
 
 ### - [Reports](https://secure.helpscout.net/conversation/2489486135/193096?folderId=7922220)
+- timezones
 - Daily reports adding different days to the total
 - When you open the sales report and tap on the **Filter** button and select the **Daily** filter option, currently 2 dates are pre-selected. Those are yesterday and today. That then shows the sales for both days. When you tap on the calendar to select a different date, a date range is offered. To only show the sales for 1 day that one date needs to be entered into both those date fields. E.g. to see sales dated 12 December you'd add that date to both date filter fields.
 
