@@ -57,6 +57,8 @@
 - Copy 'Request password reset' functionality from web app
 - 'Request password reset' link is on [auth/login/password], it leads to [auth/reset/email]
 - [auth/reset/email] has email input and 'Request code' button
+- 'Request code' links to [auth/reset/confirm]
 - files:
 	- `pages/auth/index/login/index/password.vue`
 	- `pages/auth/index/reset/index/email.vue`
+	- 
