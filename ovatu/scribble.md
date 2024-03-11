@@ -64,9 +64,9 @@
 static requestCode ({ oauth_client, location, email }) {
 	const url = this.modelBaseURL() + '/requestCode'
 	const params = {
-		  oauth_client,
-		  location,
-		  email
+      oauth_client,
+		location,
+		email
 	}
 	
 	return this.requestData(Request.post(url, JSON.stringify(params)))
