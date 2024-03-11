@@ -54,4 +54,6 @@
 ### - [No way to reset password from mobile](https://secure.helpscout.net/conversation/2502362516/194413?folderId=7922220)
 - Issues logging into Next mobile app on iPad when the password isn't known
 - No way to reset password if it's not known or request a login code
-- Copy 'Request Password Reset' functionality from web app
+- Copy 'Request password reset' functionality from web app
+- Request password reset link is on [auth/login/password], it leads to [auth/reset/email]
+- [auth/reset/email]
