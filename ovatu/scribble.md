@@ -51,4 +51,5 @@
 
 ### - [Re: Notifications](https://secure.helpscout.net/conversation/2483654426/192514?folderId=7922220)
 
-### - []
+### - [No way to reset password from mobile](https://secure.helpscout.net/conversation/2502362516/194413?folderId=7922220)
+- 
