@@ -60,7 +60,20 @@
 - 'Request code' links to [auth/reset/confirm]
 - `confirm.vue` on mounted `handleRequestCode()` 
 - `handleRequestCode`: `this.$auth.requestCode(params)` where `params` is `{ ...location, email }`
+```js
+static requestCode ({ oauth_client, location, email }) {
+    const url = this.modelBaseURL() + '/requestCode'
+    const params = {
+      oauth_client,
+      location,
+      email
+    }
+    
+    return this.requestData(Request.post(url, JSON.stringify(params)))
+  }
+```
 - files:
 	- `pages/auth/index/login/index/password.vue`
 	- `pages/auth/index/reset/index/email.vue`
 	- `pages/auth/index/reset/index/confirm.vue`
+	- `api/models/auth.js`
