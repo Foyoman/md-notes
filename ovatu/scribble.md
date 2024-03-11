@@ -59,6 +59,7 @@
 - [auth/reset/email] has email input and 'Request code' button
 - 'Request code' links to [auth/reset/confirm]
 - `confirm.vue` on mounted `handleRequestCode()` 
+- `handleRequestCode`: `this.$auth.requestCode(params)` where `params` is `{ ...location, email }`
 - files:
 	- `pages/auth/index/login/index/password.vue`
 	- `pages/auth/index/reset/index/email.vue`
