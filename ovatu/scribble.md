@@ -58,7 +58,8 @@
 - 'Request password reset' link is on [auth/login/password], it leads to [auth/reset/email]
 - [auth/reset/email] has email input and 'Request code' button
 - 'Request code' links to [auth/reset/confirm]
+- `confirm.vue` on mounted `handleRequestCode()` 
 - files:
 	- `pages/auth/index/login/index/password.vue`
 	- `pages/auth/index/reset/index/email.vue`
-	- 
+	- `pages/auth/index/reset/index/confirm.vue`
