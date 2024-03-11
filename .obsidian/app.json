@@ -10,7 +10,7 @@
   "autoPairBrackets": true,
   "autoPairMarkdown": true,
   "smartIndentList": true,
-  "useTab": false,
+  "useTab": true,
   "tabSize": 2,
   "promptDelete": false
 }
