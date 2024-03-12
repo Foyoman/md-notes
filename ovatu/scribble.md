@@ -7,11 +7,11 @@
 ### - 🧑🏻‍💻 `feature/theme/preview`
 - `mixins/layout` > `computed/siteStyles` > `rootVars`
 - async data fetching in the store, location info in manage preferences
-
+---
 ### - bruno
-
+---
 ### - admin/wiki
-
+---
 ### - 🧑🏻‍💻 [Re: questions with Ovatu Next](https://secure.helpscout.net/conversation/2471950954/191244?folderId=7922220)
 - Appointments problem:
 	- Appointments tab, click on scheduled appointment should show your whole day but doesn't work more often than not - instead it offers the move option and doesn't open the appointment, then you have to scroll to find them on the lefthand sidebar.
@@ -25,7 +25,7 @@
 - Saving problem:
 	- Saving issue on the mobile platform. Appointment > form > save
 	- `Downloads/Error and saving issue.mov`
-
+---
 ### - ✅ [problem with sales](https://secure.helpscout.net/conversation/2497278849/193923?folderId=7922220) `bugfix/order-ymd-filter`
 - timezones
 - Jan 31st sales are displaying on the Sales page in the web app. However there seems to be an issue with the date picker on the Sales page as the system is showing sales from the previous day as well as the current date.
@@ -34,12 +34,12 @@
 	- `pages/order/index.vue`
 	- `components/order/elements/DateRange.vue`
 - 
-
+---
 ### - [Reports](https://secure.helpscout.net/conversation/2489486135/193096?folderId=7922220)
 - timezones
 - Daily reports adding different days to the total
 - When you open the sales report and tap on the **Filter** button and select the **Daily** filter option, currently 2 dates are pre-selected. Those are yesterday and today. That then shows the sales for both days. When you tap on the calendar to select a different date, a date range is offered. To only show the sales for 1 day that one date needs to be entered into both those date fields. E.g. to see sales dated 12 December you'd add that date to both date filter fields.
-
+---
 ### - ✅ [Translation](https://secure.helpscout.net/conversation/2526780345/197035?folderId=7922220)
 - Some of the strings are still not translated (Croatian):
 	- Date & time = Datum i vrijeme
@@ -47,15 +47,16 @@
 	- Pay later = Plati kasnije  
 	- Use pass = Koristi paket
 - inspect other language translation files 
-
+---
 ### - ✅ `bugfix/rebook-datepicker`
-
+---
 ### - [Re: Notifications](https://secure.helpscout.net/conversation/2483654426/192514?folderId=7922220)
 - They moved to next purely for the reason so they could move clients without being notified, yet it's still happening
 - They are referring to the SMS notification
 - Moving bookings/appointments > 'Reset reminders' toggle option. That resends the reminder email and SMS
 - Sometimes they just edit the name to move it as the other way is so sensitive and jumps into a different time by a few mins sending move notifications. They want default off setting
 - When they change the employee or time on the service settings, no move alert or reminder update is sent. If the entire reservation is moved, turning off the reset reminders/move alert does not send a reminder update or move email
+---
 ### - [No way to reset password from mobile](https://secure.helpscout.net/conversation/2502362516/194413?folderId=7922220)
 - Issues logging into Next mobile app on iPad when the password isn't known
 - No way to reset password if it's not known or request a login code
