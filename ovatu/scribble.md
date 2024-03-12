@@ -58,7 +58,7 @@
 - Due to the system sending out reminder updates when an appointment is moved after the initial reminder is sent, we introduced a toggle to turn this off the 'reset reminders' when moving an appointment. They have asked if we can provide the option to have it switched off by default as turning it off every time is apparently not ideal. It's possible to turn off the move email by default so that you have to toggle it on, but the reset reminders option is always on by default
 - When an appointment is created on one device, it doesn't show on another device until the appointments page is refreshed. Is there a way to auto refresh the appointments page in that scenario?
 ---
-### 🧑🏻‍💻 [No way to reset password from mobile](https://secure.helpscout.net/conversation/2502362516/194413?folderId=7922220)
+### ✅ [No way to reset password from mobile](https://secure.helpscout.net/conversation/2502362516/194413?folderId=7922220)
 - Issues logging into Next mobile app on iPad when the password isn't known
 - No way to reset password if it's not known or request a login code
 - Copy 'Request password reset' functionality from web app
@@ -78,6 +78,9 @@
 		- `api/models/auth.js`
 	- manager_flutter:
 		- `lib/views/auth/login.dart`
+		- `lib/data/api/auth_api.dart`
 ---
 ### [Changing 'receipt' template](https://secure.helpscout.net/conversation/2536523006/198137?folderId=7922220)
 - They have two issues, first, the customer address is not showing on the receipt template (A4 version). Nor is the information from the sales tax information from the manage > general > sales tax information box. They would also like to change the wording on the receipt template. Is that not possible?
+---
+### `feature/customer-register`
