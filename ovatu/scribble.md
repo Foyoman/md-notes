@@ -62,7 +62,7 @@
 - Issues logging into Next mobile app on iPad when the password isn't known
 - No way to reset password if it's not known or request a login code
 - Copy 'Request password reset' functionality from web app
-- [a]
+- [auth/login/email] in a domain, enter email then 'Enter password' > [auth/login/password]
 - 'Request password reset' link is on [auth/login/password], it leads to [auth/reset/email]
 - [auth/reset/email] has email input and 'Request code' button
 - 'Request code' links to [auth/reset/confirm]
