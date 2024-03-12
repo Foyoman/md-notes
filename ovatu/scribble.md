@@ -53,6 +53,7 @@
 ### - [Re: Notifications](https://secure.helpscout.net/conversation/2483654426/192514?folderId=7922220)
 - They moved to next purely for the reason so they could move clients without being notified, yet it's still happening
 - They are referring to the SMS notification
+- Moving bookings/appointments > 'Reset reminders' toggle option. That resends the reminder email and SMS
 ### - [No way to reset password from mobile](https://secure.helpscout.net/conversation/2502362516/194413?folderId=7922220)
 - Issues logging into Next mobile app on iPad when the password isn't known
 - No way to reset password if it's not known or request a login code
