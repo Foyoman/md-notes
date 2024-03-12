@@ -74,7 +74,10 @@ static requestCode ({ oauth_client, location, email }) {
 }
 ```
 - files:
-	- `pages/auth/index/login/index/password.vue`
-	- `pages/auth/index/reset/index/email.vue`
-	- `pages/auth/index/reset/index/confirm.vue`
-	- `api/models/auth.js`
+	- manager web (reference):
+		- `pages/auth/index/login/index/password.vue`
+		- `pages/auth/index/reset/index/email.vue`
+		- `pages/auth/index/reset/index/confirm.vue`
+		- `api/models/auth.js`
+	- manager_flutter:
+		- 
