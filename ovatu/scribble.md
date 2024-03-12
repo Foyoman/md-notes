@@ -69,16 +69,29 @@
 - `confirm.vue` on mounted `handleRequestCode()` 
 - `handleRequestCode`: `this.$auth.requestCode(params)` where `params` is `{ ...location, email }`
 ```js
-static requestCode ({ oauth_client, location, email }) {
-	const url = this.modelBaseURL() + '/requestCode'
-	const params = {
-		oauth_client,
-		location,
-		email
+async handleResetPassword () {
+	if (!this.validate()) {
+		return
 	}
 	
-	return this.requestData(Request.post(url, JSON.stringify(params)))
-}
+	this.$emit('update:loading', true)
+	
+	try {
+		const { location, email, password, confirm, token, code } = this
+		const params = { ...location, email, password, confirm, token, code }
+		const success = await this.$auth.resetPassword(params)
+		
+		if (success) {
+			this.$router.push('/auth/reset/success')
+		}
+	} catch (e) {
+		console.log(e)
+		
+		this.$notification.error({ errors: e?.errors })
+	}
+	
+	this.$emit('update:loading', false)
+},
 ```
 - files:
 	- manager web (reference):
