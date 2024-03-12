@@ -4,15 +4,13 @@
 	- Note each file you need to work in
 3. Work through each step, checking things off one at a time
 ---
-### - 🧑🏻‍💻 `feature/theme/preview`
+### 🧑🏻‍💻 `feature/theme/preview`
 - `mixins/layout` > `computed/siteStyles` > `rootVars`
 - async data fetching in the store, location info in manage preferences
 ---
-### - bruno
+### admin/wiki
 ---
-### - admin/wiki
----
-### - 🧑🏻‍💻 [Re: questions with Ovatu Next](https://secure.helpscout.net/conversation/2471950954/191244?folderId=7922220)
+### 🧑🏻‍💻 [Re: questions with Ovatu Next](https://secure.helpscout.net/conversation/2471950954/191244?folderId=7922220)
 - Appointments problem:
 	- Appointments tab, click on scheduled appointment should show your whole day but doesn't work more often than not - instead it offers the move option and doesn't open the appointment, then you have to scroll to find them on the lefthand sidebar.
 - ✅ Notes problem:
@@ -26,7 +24,7 @@
 	- Saving issue on the mobile platform. Appointment > form > save
 	- `Downloads/Error and saving issue.mov`
 ---
-### - ✅ [problem with sales](https://secure.helpscout.net/conversation/2497278849/193923?folderId=7922220) `bugfix/order-ymd-filter`
+### ✅ [problem with sales](https://secure.helpscout.net/conversation/2497278849/193923?folderId=7922220) `bugfix/order-ymd-filter`
 - timezones
 - Jan 31st sales are displaying on the Sales page in the web app. However there seems to be an issue with the date picker on the Sales page as the system is showing sales from the previous day as well as the current date.
 - Its not being converted to the locations timezone. Tash was getting offset results because the customer is in Canada
@@ -35,12 +33,12 @@
 	- `components/order/elements/DateRange.vue`
 - 
 ---
-### - [Reports](https://secure.helpscout.net/conversation/2489486135/193096?folderId=7922220)
+### [Reports](https://secure.helpscout.net/conversation/2489486135/193096?folderId=7922220)
 - timezones
 - Daily reports adding different days to the total
 - When you open the sales report and tap on the **Filter** button and select the **Daily** filter option, currently 2 dates are pre-selected. Those are yesterday and today. That then shows the sales for both days. When you tap on the calendar to select a different date, a date range is offered. To only show the sales for 1 day that one date needs to be entered into both those date fields. E.g. to see sales dated 12 December you'd add that date to both date filter fields.
 ---
-### - ✅ [Translation](https://secure.helpscout.net/conversation/2526780345/197035?folderId=7922220)
+### ✅ [Translation](https://secure.helpscout.net/conversation/2526780345/197035?folderId=7922220)
 - Some of the strings are still not translated (Croatian):
 	- Date & time = Datum i vrijeme
 	- Apply promo code / gift card = Upotrijebi promotivni kod / poklon karticu
@@ -48,9 +46,9 @@
 	- Use pass = Koristi paket
 - inspect other language translation files 
 ---
-### - ✅ `bugfix/rebook-datepicker`
+### ✅ `bugfix/rebook-datepicker`
 ---
-### - [Re: Notifications](https://secure.helpscout.net/conversation/2483654426/192514?folderId=7922220)
+### [Re: Notifications](https://secure.helpscout.net/conversation/2483654426/192514?folderId=7922220)
 - They moved to next purely for the reason so they could move clients without being notified, yet it's still happening
 - They are referring to the SMS notification
 - Moving bookings/appointments > 'Reset reminders' toggle option. That resends the reminder email and SMS
@@ -60,7 +58,7 @@
 - Due to the system sending out reminder updates when an appointment is moved after the initial reminder is sent, we introduced a toggle to turn this off the 'reset reminders' when moving an appointment. They have asked if we can provide the option to have it switched off by default as turning it off every time is apparently not ideal. It's possible to turn off the move email by default so that you have to toggle it on, but the reset reminders option is always on by default
 - When an appointment is created on one device, it doesn't show on another device until the appointments page is refreshed. Is there a way to auto refresh the appointments page in that scenario?
 ---
-### - [No way to reset password from mobile](https://secure.helpscout.net/conversation/2502362516/194413?folderId=7922220)
+### [No way to reset password from mobile](https://secure.helpscout.net/conversation/2502362516/194413?folderId=7922220)
 - Issues logging into Next mobile app on iPad when the password isn't known
 - No way to reset password if it's not known or request a login code
 - Copy 'Request password reset' functionality from web app
@@ -89,3 +87,6 @@ static requestCode ({ oauth_client, location, email }) {
 		- `api/models/auth.js`
 	- manager_flutter:
 		- 
+---
+### [Changing 'receipt' template](https://secure.helpscout.net/conversation/2536523006/198137?folderId=7922220)
+- They have two issues, first, the customer address is not showing on the receipt template (A4 version). Nor is the information from the sales tax information from the manage > general > sales tax information box. They would also like to change the wording on the receipt template. Is that not possible?
