@@ -51,7 +51,7 @@
 ### - ✅ `bugfix/rebook-datepicker`
 
 ### - [Re: Notifications](https://secure.helpscout.net/conversation/2483654426/192514?folderId=7922220)
-
+- 
 ### - [No way to reset password from mobile](https://secure.helpscout.net/conversation/2502362516/194413?folderId=7922220)
 - Issues logging into Next mobile app on iPad when the password isn't known
 - No way to reset password if it's not known or request a login code
