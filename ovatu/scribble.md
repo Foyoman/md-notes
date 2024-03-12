@@ -56,7 +56,7 @@
 - Moving bookings/appointments > 'Reset reminders' toggle option. That resends the reminder email and SMS
 - Sometimes they just edit the name to move it as the other way is so sensitive and jumps into a different time by a few mins sending move notifications. They want default off setting
 - When they change the employee or time on the service settings, no move alert or reminder update is sent. If the entire reservation is moved, turning off the reset reminders/move alert does not send a reminder update or move email
-- 
+- They have t
 ---
 ### - [No way to reset password from mobile](https://secure.helpscout.net/conversation/2502362516/194413?folderId=7922220)
 - Issues logging into Next mobile app on iPad when the password isn't known
