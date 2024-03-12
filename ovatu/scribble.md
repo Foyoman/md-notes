@@ -26,7 +26,7 @@
 	- Saving issue on the mobile platform. Appointment > form > save
 	- `Downloads/Error and saving issue.mov`
 
-### - ✅ [problem with sales](https://secure.helpscout.net/conversation/2497278849/193923?folderId=7922220)
+### - ✅ [problem with sales](https://secure.helpscout.net/conversation/2497278849/193923?folderId=7922220) `bugfix/order-ymd-filter`
 - timezones
 - Jan 31st sales are displaying on the Sales page in the web app. However there seems to be an issue with the date picker on the Sales page as the system is showing sales from the previous day as well as the current date.
 - Its not being converted to the locations timezone. Tash was getting offset results because the customer is in Canada
