@@ -87,7 +87,7 @@ static requestCode ({ oauth_client, location, email }) {
 		- `pages/auth/index/reset/index/confirm.vue`
 		- `api/models/auth.js`
 	- manager_flutter:
-		- 
+		- `lib/views/auth/login.dart`
 ---
 ### [Changing 'receipt' template](https://secure.helpscout.net/conversation/2536523006/198137?folderId=7922220)
 - They have two issues, first, the customer address is not showing on the receipt template (A4 version). Nor is the information from the sales tax information from the manage > general > sales tax information box. They would also like to change the wording on the receipt template. Is that not possible?
