@@ -62,10 +62,10 @@
 - Issues logging into Next mobile app on iPad when the password isn't known
 - No way to reset password if it's not known or request a login code
 - Copy 'Request password reset' functionality from web app
-- [auth/login/email] in a domain, enter email then 'Enter password' > [auth/login/password]
-- 'Request password reset' link is on [auth/login/password], it leads to [auth/reset/email]
-- [auth/reset/email] has email input and 'Request code' button
-- 'Request code' links to [auth/reset/confirm]
+- [auth/login/email]() in a domain, enter email then 'Enter password' > [auth/login/password]()
+- 'Request password reset' link is on [auth/login/password](), it leads to [auth/reset/email]()
+- [auth/reset/email]() has email input and 'Request code' button
+- 'Request code' links to [auth/reset/confirm]()
 - `confirm.vue` on mounted `handleRequestCode()` 
 - `handleRequestCode`: `this.$auth.requestCode(params)` where `params` is `{ ...location, email }`
 - `requestCode` > `resetPassword`
@@ -86,4 +86,4 @@
 ### `feature/customer-register`
 ---
 ### `formbuilder/preview`
-- 
+- "Hey [@Edward Do]() for the Annotation form item, can this be hooked up to the Asset Library? I.e. so it works similar to image uploads in the custom pages editor"
