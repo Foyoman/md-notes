@@ -84,3 +84,4 @@
 - They have two issues, first, the customer address is not showing on the receipt template (A4 version). Nor is the information from the sales tax information from the manage > general > sales tax information box. They would also like to change the wording on the receipt template. Is that not possible?
 ---
 ### `feature/customer-register`
+---
