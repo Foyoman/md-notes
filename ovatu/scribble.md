@@ -87,4 +87,3 @@
 ---
 ### `formbuilder/preview`
 - "Hey [@Edward Do]() for the Annotation form item, can this be hooked up to the Asset Library? I.e. so it works similar to image uploads in the custom pages editor"
-	- uploading an image for an annotation field in the `EditFormBuilderItem` currently doesn't work
