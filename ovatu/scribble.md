@@ -7,6 +7,9 @@
 ### 🧑🏻‍💻 `feature/theme/preview`
 - `mixins/layout` > `computed/siteStyles` > `rootVars`
 - Async data fetching in the store, location info in manage preferences
+- when site loaded, brief flash of default theme
+- preview of selected
+- add more preset themes
 ---
 ### admin/wiki
 ---
@@ -87,3 +90,6 @@
 ---
 ### `formbuilder/preview`
 - "Hey [@Edward Do]() for the Annotation form item, can this be hooked up to the Asset Library? I.e. so it works similar to image uploads in the custom pages editor"
+---
+### Re: Assistance Required with Client Date of Birth Entry in Forms
+- Issue with client forms. Struggling to enter their date of birth. Individuals are unable to enter their date of birth, whether they try to add it in the day/month/year or month/day/year format.
